@@ -1,5 +1,6 @@
 ﻿# Aqualite-Bot/奶茶酱
 一个基于nonebot2开发的QQ群聊bot，又称奶茶酱（曾用名，现在也可以酱紫称呼  
+引入了很多优秀的plugins，感谢nonebot2社区的开发者们！  
 🌟帮助文档：https://note.youdao.com/s/TnWDjRH7  
 🤯相关信息：  
 开发：奶茶sama/Aqualite[1259891410]（QQ）  
