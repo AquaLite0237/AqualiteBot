@@ -1,11 +1,11 @@
 import random
 from datetime import date
-from nonebot.plugin import on_keyword
+from nonebot.plugin import on_command
 from nonebot.adapters.onebot.v11 import Bot, Event
 import datetime as datetime
 from nonebot.adapters.onebot.v11.message import Message
 
-jrrp = on_keyword({'今日人品', '.jrrp', 'jrrp'})
+jrrp = on_command("今日人品", aliases={".jrrp", "jrrp"})
 
 
 @jrrp.handle()

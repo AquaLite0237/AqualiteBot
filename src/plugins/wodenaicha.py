@@ -1,10 +1,10 @@
-﻿from nonebot.plugin import on_keyword
+from nonebot.plugin import on_command
 from nonebot.adapters.onebot.v11 import Bot, Event
 from nonebot.adapters.onebot.v11.message import Message
 import datetime as datetime
 from nonebot.typing import T_State
 
-sign = on_keyword({'我的奶茶','!mm','mm'})
+sign = on_command("我的奶茶", aliases={"!mm", "mm"})
 @sign.handle()
 async def sign_handle(bot: Bot, event: Event, state: T_State):
     id = event.get_user_id()

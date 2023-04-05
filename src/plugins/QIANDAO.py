@@ -1,12 +1,12 @@
 import os
-from nonebot.plugin import on_keyword
+from nonebot.plugin import on_command
 from nonebot.adapters.onebot.v11 import Bot, Event
 from nonebot.adapters.onebot.v11.message import Message
 import datetime as datetime
 from nonebot.typing import T_State
 import random
 
-sign = on_keyword({'签到', 'sign', '/sign'})
+sign = on_command("签到", aliases={"sign", "/sign"})
 
 @sign.handle()
 async def sign_handle(bot: Bot, event: Event, state: T_State):
