@@ -1,0 +1,3 @@
+pip uninstall pillow
+pip install pillow==9.5.0
+nb plugin install nonebot-plugin-osubot
